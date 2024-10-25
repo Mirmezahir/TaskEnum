@@ -25,8 +25,9 @@ namespace Core.Models
             {
                 if (products[i].No != no)
                 {
-                    j++;
+                    
                     removedproducts[j] = products[i];
+                    j++;
                 }
             }
             products = removedproducts;
